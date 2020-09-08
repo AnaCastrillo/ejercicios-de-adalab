@@ -1,0 +1,52 @@
+:root {
+  /*Escribe aquí tu código*/
+  --pad: 20px; /*  */
+  --margen: 0;
+  --grey: rgb(151, 151, 151); /*color subtitulo */
+}
+
+body {
+  margin: var(--margen);
+}
+
+header {
+  background-color: #eaeaea;
+  padding: var(--pad);
+}
+
+main {
+  padding: var(--pad);
+}
+
+p {
+  width: 50%;
+  font-size: 16px;
+}
+
+ul {
+  list-style-type: none;
+  padding: var(--margen);
+}
+
+.title {
+  color: var(--grey);
+  margin: var(--margen);
+}
+
+.subtitle {
+  color: var(--grey);
+  margin: var(--margen);
+}
+
+.menu li {
+  display: inline;
+}
+
+.menu a {
+  color: green;
+  text-decoration: none;
+}
+
+p a {
+  color: green;
+}

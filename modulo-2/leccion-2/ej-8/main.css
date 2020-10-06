@@ -1,0 +1,18 @@
+img {
+  width: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  width: 25%;
+  font-family: "Courier New", Courier, monospace;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: lightgray;
+  text-align: center;
+  box-shadow: 2px 2px 5px gray;
+}

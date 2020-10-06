@@ -1,0 +1,12 @@
+.main {
+  background-color: pink;
+}
+
+.main__title {
+  color: red;
+}
+
+.super-wave {
+  font-size: 44px;
+  text-decoration: underline;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>M2-L6-E6</title>
+    <style>
+      form {
+        display: grid;
+        grid-template-rows: 3;
+        grid-template-columns: 2;
+        width: 40px;
+        grid-gap: 5px;
+      }
+
+      .start,
+      .init {
+        grid-row: span 1;
+        grid-column: span 2;
+      }
+      .inactive {
+        background-color: beige;
+        border: solid 2px lightgrey;
+        color: lightgrey;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <input class="start" type="button" value="Start" />
+      <input class="add" type="button" value="Add" />
+      <input class="remove" type="button" value="Remove" />
+      <input class="init" type="button" value="Initial" />
+    </form>
+    <p class="pearBasket"></p>
+    <script src="./main.js"></script>
+  </body>
+</html>

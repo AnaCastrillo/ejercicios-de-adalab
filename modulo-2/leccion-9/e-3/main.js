@@ -14,7 +14,13 @@ function get100Numbers() {
 		const number = i;
 		numList.push(number);
 	}
-	return console.log(numList);
+	return numList;
 }
 
-get100Numbers();
+function getReversed100Numbers() {
+	get100Numbers();
+	const reverseNumbers = numList.reverse();
+	return console.log(reverseNumbers);
+}
+
+getReversed100Numbers();
